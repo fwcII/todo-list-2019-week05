@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Hells kitchen to do list</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header>
+			<h1>Chef Gordon Ramsay's Hells Kitchen Challenge</h1>
+		</header>
+		<section>
+            <div>
+			<form id="chefTasksForm" action="">
+			<input id="tasksListBox" type="text" placeholder="You have 30 minutes to serve me a michelin star meal">
+			<button id="addFoodToList">Insert Ingredients</button>
+			<ul class="hellsFoodUl" id="hellsFoodList">
+				<li class="completeLine"></li>
+				<li class="incompleteLine"></li>
+			</ul>
+			</form>
+            </div>
+
+            <div class="botdiv">
+				<p id="tasksLeft">Get me my <span value="" class="tasksNum">0</span> other ingredients and Put them in the pan!</p>
+				<button id="clearBasket">Clear Ingredients</button>
+				<button id="clearCompleted">Clear completed Ingredients</button>
+			</div>
+		</section>
+		
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
